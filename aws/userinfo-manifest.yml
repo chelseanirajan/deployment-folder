@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: userapp
-          image: chelseanirajan/userinfo-service:latest
+          image: chelseanirajan/userinfo-service:8
           imagePullPolicy: Always
           ports:
             - containerPort: 9092
